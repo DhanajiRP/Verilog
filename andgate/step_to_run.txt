@@ -1,0 +1,7 @@
+steps to run verilog file 
+1.compile the file using flowing command it will create the tb as output file
+   iverilog -o tb and_data_tb.v
+2.simulate the output file with this command  
+   vvp tb
+3.open the wavefrom using the gtk wave
+   gtkwave filename.vcd 
